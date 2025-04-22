@@ -348,17 +348,80 @@ logRecursion(3);
 //     executestuff();
 //     console.log("inside the executed stuff ")
 // }
-let youGotThis = function(){
-    console.log("you are doing really well for the knows as ")
+// let youGotThis = function(){
+//     console.log("you are doing really well for the knows as ")
+
+// }
+// setTimeout(youGotThis,5000)
+// let testFunction = function(){
+
+// }
+// (function (){
+//     console.log("welcome")
+// })();
+// (function(){
+//     let firstname 
+// })
+// class Person {
+//     constructor(firstname,lastname){
+//         this.firstname = firstname
+//         // this.lastname = lastname
+
+//     }
+//     greet(){
+//         console.log("hi there ")
+
+//     }
+//     compliment(name,object){
+//         return "That's a wonderful"+object +","+name
+//     }
+// }
+// let p  = new Person("shashank","Gupta")
+// p.greet()
+// console.log(p.compliment())
+
+// class Person {
+//     #firstname
+//     #lastname
+//     constructor(firstname,lastname){
+//         this.#firstname = firstname
+//         this.#lastname = lastname
+
+//     }
+//     greet(){
+//         console.log("hi there ")
+
+//     }
+//     compliment(name,object){
+//         return "That's a wonderful"+object +","+name
+//     }
+// }
+// let p  = new Person("shashank","Gupta")
+// p.greet()
+// console.log(p.compliment())
+
+
+// get or set method 
+
+
+class Person{
+    #firstname
+    #lastname
+    constructor(firstname,lastname){
+        this.#firstname = firstname
+        this.#lastname = lastname
+
+    }
+    get firstname(){
+        return this.#firstname
+    }
+    set firstname(firstname){
+        return this.#firstname = firstname
+    }
 
 }
-setTimeout(youGotThis,5000)
-let testFunction = function(){
+let j = new Person("shashank","Gupta")
+console.log(j.firstname)
+console.log(j.firstname="saksham")
 
-}
-(function (){
-    console.log("welcome")
-})();
-(function(){
-    let firstname 
-})
+
