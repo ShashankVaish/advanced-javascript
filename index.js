@@ -425,3 +425,20 @@ console.log(j.firstname)
 console.log(j.firstname="saksham")
 
 
+const number = [10,20,30,40,50];
+const [a,b,...rest] = number
+console.log(a,b,rest)
+let firstname = "shashank"
+let lastname = "gupta"
+[firstname,lastname] = [lastname,firstname]
+
+
+
+javascript 
+
+
+
+
+const person = {
+    
+}
